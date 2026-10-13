@@ -1,4 +1,4 @@
-# 👽💻 Chatbot Tutor de Programación — Zorp
+#Chatbot Tutor de Programación — Zorp
 
 > Proyecto realizado por **TofuDev (José Alberto Ávila Pérez)**
 
@@ -6,13 +6,13 @@ Un chatbot interactivo con inteligencia artificial que actúa como tutor de prog
 
 ---
 
-## 🛸 ¿Quién es Zorp?
+## ¿Quién es Zorp?
 
 Zorp es un alien amigable del planeta **Xylos-9** que responde tus preguntas sobre programación de forma clara, breve y con ejemplos de código. No olvida los emojis espaciales. 👽🚀🪐
 
 ---
 
-## ⚙️ Tecnologías utilizadas
+##  Tecnologías utilizadas
 
 | Tecnología | Uso |
 |---|---|
@@ -23,7 +23,7 @@ Zorp es un alien amigable del planeta **Xylos-9** que responde tus preguntas sob
 
 ---
 
-## 🚀 Instalación y ejecución
+##  Instalación y ejecución
 
 Este proyecto está diseñado para correr en **Google Colab** o cualquier entorno con Python.
 
@@ -44,7 +44,7 @@ client = OpenAI(
 )
 ```
 
-> ⚠️ **Nunca compartas tu API key públicamente ni la subas a repositorios.**
+> **Nunca compartan sus API key públicamente ni la suban a repositorios xdd.**
 
 ### 3. Levantar el servidor
 
@@ -60,17 +60,17 @@ streamlit run SimpleChat.py --server.port 8501
 
 ---
 
-## 📁 Estructura del proyecto
+##  Estructura del proyecto
 
 ```
-📦 proyecto-zorp/
- ┣ 📄 SimpleChat.py        # App principal de Streamlit
- ┗ 📄 README.md            # Este archivo
+ proyecto-zorp/
+ ┣  SimpleChat.py        # App principal de Streamlit
+ ┗  README.md            # Este archivo
 ```
 
 ---
 
-## 🧠 ¿Cómo funciona?
+##  ¿Cómo funciona?
 
 1. El usuario escribe una pregunta en el chat.
 2. La app envía el historial completo de la conversación + la nueva pregunta a la API de DeepSeek.
@@ -81,7 +81,7 @@ El historial se mantiene activo durante la sesión gracias a `st.session_state`.
 
 ---
 
-## 💡 Personalización
+##  Personalización
 
 Puedes modificar el comportamiento de Zorp editando el `system prompt` dentro de la función `genera_respuesta`:
 
@@ -98,7 +98,7 @@ Puedes modificar el comportamiento de Zorp editando el `system prompt` dentro de
 
 ---
 
-## 📌 Notas
+##  Notas
 
 - El modelo utilizado es `deepseek-chat`. Puedes cambiarlo a otros modelos disponibles en DeepSeek según tu plan.
 - El streaming está desactivado (`stream=False`). Puedes activarlo para una experiencia más fluida.
@@ -106,8 +106,8 @@ Puedes modificar el comportamiento de Zorp editando el `system prompt` dentro de
 
 ---
 
-## 📜 Licencia
+## Licencia
 
 Proyecto educativo de uso libre. Puedes modificarlo y compartirlo con crédito al autor original.
 
-**TofuDev — José Alberto Ávila Pérez** 🛸
+**TofuDev — José Alberto Ávila Pérez** 
