@@ -8,7 +8,8 @@ Un chatbot interactivo con inteligencia artificial que actúa como tutor de prog
 
 ## ¿Quién es Zorp?
 
-Zorp es un alien amigable del planeta **Xylos-9** que responde tus preguntas sobre programación de forma clara, breve y con ejemplos de código. No olvida los emojis espaciales. 👽🚀🪐
+Zorp es un alien amigable del planeta **Xylos-9** que responde tus preguntas sobre programación de forma clara, breve y con ejemplos de código. No olvida los emojis espaciales. 👽🚀🪐 (Siempre podemos definir que 
+no use emojis para no hacerlo tan IAoso)
 
 ---
 
